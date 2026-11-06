@@ -2583,3 +2583,866 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.06-17.03.01:102][882]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 79EDEE2344ADA54018F836AD22A9A190 (130.74.96.133:51971)
 [2026.11.06-17.03.01:437][883]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node AE5E7C4B4ECAAD9D19971EBCEF49BDD9 (130.74.96.133:55870)
 [2026.11.06-17.03.01:561][883]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 6B6809DC471D3710645532A944F6EA0B (130.74.96.133:62134)
+[2026.11.06-17.23.38:310][593]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2026.11.06-17.23.38:310][593]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-17.23.38:310][593]LogAudioMixerWasapi: Warning: FWasapiDefaultRenderStream: device lost in GetCurrentPadding (HRESULT=0x88890004). Requesting swap.
+[2026.11.06-17.23.38:311][593]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Communications, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2026.11.06-17.23.38:311][593]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-17.23.38:311][593]LogAudioMixer: Display: FAudioMixerWasapi::InitDeviceSwapContextInternal - DeviceSwapContext in-flight, cancelling and starting a new swap.
+[2026.11.06-17.23.38:448][593]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}]
+[2026.11.06-17.23.38:448][593]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.06-17.23.38:448][593]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.06-17.23.38:451][593]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.06-17.23.38:452][593]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-17.23.38:792][595]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-17.23.38:792][595]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-17.23.38:792][595]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.06-17.23.39:114][595]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.06-17.23.39:448][596]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=343.78
+[2026.11.06-17.23.39:448][596]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'Realtek Digital Output (Realtek(R) Audio)'
+[2026.11.06-17.23.39:448][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.06-17.23.39:450][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.06-17.29.10:616][590]LogDerivedDataCache: C:/Users/Joey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:32.081 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 16813 files in 16905 folders with total size 333 MiB.
+[2026.11.06-18.52.59:558][426]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 3E7815904BC54158956E78BF95BE62AD (127.0.0.1:65124)
+[2026.11.06-18.53.02:323][430]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=ASUS VN289 (NVIDIA High Definition Audio), InstanceID=1
+[2026.11.06-18.53.02:323][430]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-18.53.02:324][430]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Communications, DeviceName=ASUS VN289 (NVIDIA High Definition Audio), InstanceID=1
+[2026.11.06-18.53.02:325][430]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-18.53.02:325][430]LogAudioMixer: Display: FAudioMixerWasapi::InitDeviceSwapContextInternal - DeviceSwapContext in-flight, cancelling and starting a new swap.
+[2026.11.06-18.53.02:550][430]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}]
+[2026.11.06-18.53.02:550][430]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.06-18.53.02:550][430]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.06-18.53.02:556][431]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.06-18.53.02:556][431]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-18.53.02:582][431]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-18.53.02:582][431]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-18.53.02:583][431]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.06-18.53.02:882][431]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.06-18.53.03:216][432]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}, Name=ASUS VN289 (NVIDIA High Definition Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=33.05
+[2026.11.06-18.53.03:216][432]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-18.53.03:216][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.06-18.53.03:218][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.06-18.53.04:561][437]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node CCCCD1FC418AFB5B864F7B8F32016D53 (130.74.96.137:55359)
+[2026.11.06-18.53.04:561][437]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node D2E084864A603465C6D56F8FF4B10F9C (130.74.96.131:60661)
+[2026.11.06-18.53.04:561][437]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node A357919C4FAD434E697991A41F8FEC75 (130.74.96.137:51946)
+[2026.11.06-18.53.09:888][453]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node FF9A793943BDAD4C129E21B05DB14F3E (130.74.96.131:54894)
+[2026.11.06-18.53.14:889][468]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node FF9A793943BDAD4C129E21B05DB14F3E (130.74.96.131:54894)
+[2026.11.06-18.56.27:567][761]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_16.svg'. File could not be found
+[2026.11.06-18.56.27:567][761]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/ToonProfile_16.svg'. File could not be found
+[2026.11.06-18.56.35:115][613]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-18.56.35:115][613]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-18.56.35:115][613]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftInputAction has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-18.56.35:115][613]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-18.56.35:115][613]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-18.56.37:146][613]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2026.11.06-18.56.37:157][613]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2026.11.06-18.56.37:161][613]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2026.11.06-18.56.37:182][614]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2026.11.06-18.56.48:657][977]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_EndScreen
+[2026.11.06-18.56.48:665][977]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2026.11.06-18.56.54:346][597]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameParts/WBP_EndScreen.WBP_EndScreen
+[2026.11.06-19.07.14:606][728]LogSlate: Display: Synchronously lazy loading font file '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' with subface index 0 in Game thread.
+[2026.11.06-19.07.14:606][728]LogSlate: Display: Took 0.006995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K) on Game thread.
+[2026.11.06-19.07.14:606][728]LogSlate: Display: Freetype font face in memory successfully created with synchronously loaded raw font file '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' subface 0 in Game thread.
+[2026.11.06-19.07.14:606][728]LogSlate: Display: Font face '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' subface index 0 successfully added to font face map in Game thread.
+[2026.11.06-19.08.42:340][298]LogEditorTransaction: Undo Comment Bubble Pin
+[2026.11.06-19.08.42:607][302]LogEditorTransaction: Undo Comment Bubble Visibility
+[2026.11.06-19.09.22:202][776]LogSlate: Display: Synchronously lazy loading font file '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' with subface index 0 in Game thread.
+[2026.11.06-19.09.22:202][776]LogSlate: Display: Took 0.006475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K) on Game thread.
+[2026.11.06-19.09.22:202][776]LogSlate: Display: Freetype font face in memory successfully created with synchronously loaded raw font file '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' subface 0 in Game thread.
+[2026.11.06-19.09.22:202][776]LogSlate: Display: Font face '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' subface index 0 successfully added to font face map in Game thread.
+[2026.11.06-19.14.03:276][ 55]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_EndScreen.WBP_EndScreen'
+[2026.11.06-19.14.03:388][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.11.06-19.14.10:281][807]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.14.10:281][807]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.14.10:281][807]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftInputAction has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.14.10:281][807]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.14.10:281][807]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.15.38:764][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.11.06-19.15.38:779][627]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626_Auto2
+[2026.11.06-19.15.38:779][627]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/Q7CPP7VHOXBAMAJI90W626_Auto203D9E650400F9AB1141D4C875170242D.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626_Auto2.uasset'
+[2026.11.06-19.15.38:780][627]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.041
+[2026.11.06-19.15.38:780][627]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.041
+[2026.11.06-19.15.38:780][627]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GameParts/WBP_HUD] ([2] browsable assets)...
+[2026.11.06-19.15.38:780][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_HUD]
+[2026.11.06-19.15.38:798][627]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameParts/WBP_HUD_Auto2
+[2026.11.06-19.15.38:799][627]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_HUD_Auto25163B0D5408532482EEC83AFBAB07F98.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/Autosaves/Game/GameParts/WBP_HUD_Auto2.uasset'
+[2026.11.06-19.15.38:800][627]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_EndScreen] ([2] browsable assets)...
+[2026.11.06-19.15.38:812][627]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_EndScreen.WBP_EndScreen]
+[2026.11.06-19.15.38:812][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_EndScreen]
+[2026.11.06-19.15.38:823][627]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameParts/WBP_EndScreen_Auto2
+[2026.11.06-19.15.38:823][627]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_EndScreen_Auto281E196DD481E96B1549991A907DC0D46.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/Autosaves/Game/GameParts/WBP_EndScreen_Auto2.uasset'
+[2026.11.06-19.15.38:824][627]LogFileHelpers: Auto-saving content packages took 0.044
+[2026.11.06-19.23.48:757][665]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_EndScreen.WBP_EndScreen'
+[2026.11.06-19.23.48:811][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2026.11.06-19.29.06:918][411]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_EndScreen.WBP_EndScreen'
+[2026.11.06-19.29.06:963][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.11.06-19.29.08:267][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.06-19.29.08:321][536]LogFileHelpers: Saving Package: /Game/GameParts/WBP_EndScreen
+[2026.11.06-19.29.08:321][536]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_EndScreen] ([2] browsable assets)...
+[2026.11.06-19.29.08:323][536]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_EndScreen.WBP_EndScreen]
+[2026.11.06-19.29.08:323][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_EndScreen]
+[2026.11.06-19.29.08:323][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameParts/WBP_EndScreen" FILE="../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_EndScreen.uasset" SILENT=true
+[2026.11.06-19.29.08:335][536]LogSavePackage: Moving output files for package: /Game/GameParts/WBP_EndScreen
+[2026.11.06-19.29.08:335][536]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_EndScreenC512CF1F4E4931AC2FF14E904EF1FA31.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_EndScreen.uasset'
+[2026.11.06-19.29.08:345][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.766 ms (total: 367.914 ms)
+[2026.11.06-19.29.08:405][536]LogContentValidation: Enabled validators:
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.06-19.29.08:405][536]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.06-19.29.08:405][536]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.06-19.29.08:405][536]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.06-19.29.08:406][536]AssetCheck: /Game/GameParts/WBP_EndScreen Validating asset
+[2026.11.06-19.29.08:406][536]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 1
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.06-19.29.08:406][536]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.06-19.29.08:452][536]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.06-19.29.14:466][194]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2026.11.06-19.29.14:547][194]LogStreaming: Display: FlushAsyncLoading(695): 1 QueuedPackages, 0 AsyncPackages
+[2026.11.06-19.30.43:545][236]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.30.43:545][236]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.30.43:545][236]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftInputAction has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.30.43:545][236]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.30.43:545][236]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.11.06-19.39.59:730][711]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 4454F6F64EDEE62E91205BA3D51AF7BA (130.74.96.124:50198)
+[2026.11.06-19.41.58:946][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.11.06-19.41.58:948][452]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.044
+[2026.11.06-19.41.58:949][452]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2026.11.06-19.41.58:986][452]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2026.11.06-19.41.58:992][452]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2026.11.06-19.41.58:992][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2026.11.06-19.41.59:014][452]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3
+[2026.11.06-19.41.59:014][452]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/BP_ThirdPersonCharacter_Auto34C230EB946EE8A2710214E8A5B20AE00.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3.uasset'
+[2026.11.06-19.41.59:015][452]LogFileHelpers: Auto-saving content packages took 0.066
+[2026.11.06-19.42.16:234][340]LogBlueprint: Compiling Blueprint '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter'
+[2026.11.06-19.42.16:293][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.11.06-19.42.17:984][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.06-19.42.18:042][511]LogFileHelpers: Saving Package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2026.11.06-19.42.18:042][511]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2026.11.06-19.42.18:069][511]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2026.11.06-19.42.18:070][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2026.11.06-19.42.18:086][511]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2026.11.06-19.42.18:087][511]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/BP_ThirdPersonCharacter5996E31F4AEFBED9D41ACC9A6D05A778.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2026.11.06-19.42.18:092][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.884 ms (total: 476.799 ms)
+[2026.11.06-19.42.18:137][511]LogContentValidation: Enabled validators:
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.06-19.42.18:137][511]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.06-19.42.18:137][511]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.06-19.42.18:137][511]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.06-19.42.18:137][511]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2026.11.06-19.42.18:137][511]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.06-19.42.18:137][511]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.06-19.42.24:011][189]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.06-19.42.24:017][189]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.06-19.42.24:018][189]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.11.06-19.42.24:018][189]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 903 us (total: 6.041 ms)
+[2026.11.06-19.42.24:019][189]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.11.06-19.42.24:019][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.06-19.42.24:019][189]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.42.24:026][189]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.06-19.42.24:027][189]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.175 ms (total: 7.089 ms)
+[2026.11.06-19.42.24:028][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009163s)
+[2026.11.06-19.42.24:028][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.009196s)
+[2026.11.06-19.42.24:051][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.11.06-19.42.24:055][189]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.11.06-19.42.24:057][189]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.06-19.42.24:057][189]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.06-19.42.24:057][189]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.06-19.42.24:057][189]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.06-19.42.24:059][189]LogWorldPartition: Display: WorldPartition initialize took 1.546 ms (total: 580.112 ms)
+[2026.11.06-19.42.24:059][189]LogPlayLevel: PIE: World Init took: (0.003854s)
+[2026.11.06-19.42.24:059][189]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.06-19.42.24:059][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.06-19.42.24:059][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.06-19.42.24:059][189]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.06-19.42.24:059][189]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.06-19.42.24:059][189]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.06-19.42.24:060][189]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.11.06-19.42.24:064][189]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.42.24:065][189]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.42.24:066][189]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.42.24:071][189]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.11.06-19.42.24:071][189]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.11.06-19.42.24:071][189]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.11.06-19.42.24:073][189]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-19.42.24:078][189]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-19.42.24:078][189]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-19.42.24:078][189]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.11.06-19.42.24:078][189]LogAudioMixer: Display: Using Audio Hardware Device ASUS VN289 (NVIDIA High Definition Audio)
+[2026.11.06-19.42.24:078][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.06-19.42.24:078][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.06-19.42.24:078][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.06-19.42.24:079][189]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.11.06-19.42.24:081][189]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.11.06-19.42.24:083][189]LogInit: FAudioDevice initialized with ID 7.
+[2026.11.06-19.42.24:083][189]LogAudio: Display: Audio Device (ID: 7) registered with world 'Lvl_ThirdPerson'.
+[2026.11.06-19.42.24:083][189]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.11.06-19.42.24:083][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.42.24:086][189]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.11.06-19.42.24:090][189]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.11.06-13.42.24
+[2026.11.06-19.42.24:090][189]LogWorld: Bringing up level for play took: 0.002980
+[2026.11.06-19.42.24:093][189]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2026.11.06-19.42.24:093][189]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.11.06-19.42.24:097][189]PIE: Server logged in
+[2026.11.06-19.42.24:098][189]PIE: Play in editor total start time 0.081 seconds.
+[2026.11.06-19.42.24:128][190]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.06-19.42.57:740][211]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.11.06-19.42.57:740][211]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.06-19.42.57:741][211]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.06-19.43.08:158][461]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Lvl_ThirdPerson"
+[2026.11.06-19.43.08:158][461]LogNet: Browse: /Game/ThirdPerson/Lvl_ThirdPerson
+[2026.11.06-19.43.08:159][461]LogLoad: LoadMap: /Game/ThirdPerson/Lvl_ThirdPerson
+[2026.11.06-19.43.08:159][461]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.43.08:162][461]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-19.43.08:162][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.43.08:162][461]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.11.06-19.43.08:189][461]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.11.06-19.43.08:191][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.11.06-19.43.08:195][461]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.43.08:202][461]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.06-19.43.08:204][461]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.134 ms (total: 8.223 ms)
+[2026.11.06-19.43.08:204][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008979s)
+[2026.11.06-19.43.08:204][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.009027s)
+[2026.11.06-19.43.08:204][461]LogAudio: Display: Audio Device (ID: 7) registered with world 'Lvl_ThirdPerson'.
+[2026.11.06-19.43.08:204][461]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.11.06-19.43.08:205][461]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.06-19.43.08:205][461]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.06-19.43.08:206][461]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.06-19.43.08:206][461]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.06-19.43.08:207][461]LogWorldPartition: Display: WorldPartition initialize took 1.340 ms (total: 581.452 ms)
+[2026.11.06-19.43.08:207][461]LogPlayLevel: PIE: World Init took: (0.002897s)
+[2026.11.06-19.43.08:207][461]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.11.06-19.43.08:210][461]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.11.06-13.43.08
+[2026.11.06-19.43.08:210][461]LogWorld: Bringing up level for play took: 0.002576
+[2026.11.06-19.43.08:214][461]LogLoad: Took 0.053911 seconds to LoadMap(/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson)
+[2026.11.06-19.43.08:214][461]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.43.08:218][461]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.06-19.43.18:596][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.43.18:596][700]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.43.18:596][700]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-19.43.18:597][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.43.18:597][700]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.11.06-19.43.18:598][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.06-19.43.18:601][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.43.18:624][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.43.18:624][700]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.11.06-19.43.18:624][700]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=7, StreamState=4
+[2026.11.06-19.43.18:631][700]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.11.06-19.43.18:636][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.11.06-19.43.18:667][702]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2026.11.06-19.43.20:818][957]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.06-19.43.20:823][957]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.06-19.43.20:823][957]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.11.06-19.43.20:824][957]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 798 us (total: 6.840 ms)
+[2026.11.06-19.43.20:824][957]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.11.06-19.43.20:824][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.06-19.43.20:824][957]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.43.20:832][957]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.06-19.43.20:833][957]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.168 ms (total: 9.392 ms)
+[2026.11.06-19.43.20:833][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008764s)
+[2026.11.06-19.43.20:833][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008792s)
+[2026.11.06-19.43.20:857][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.11.06-19.43.20:858][957]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.11.06-19.43.20:860][957]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.06-19.43.20:860][957]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.06-19.43.20:860][957]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.06-19.43.20:860][957]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.06-19.43.20:861][957]LogWorldPartition: Display: WorldPartition initialize took 1.562 ms (total: 583.014 ms)
+[2026.11.06-19.43.20:862][957]LogPlayLevel: PIE: World Init took: (0.003259s)
+[2026.11.06-19.43.20:862][957]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.06-19.43.20:862][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.06-19.43.20:862][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.06-19.43.20:862][957]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.06-19.43.20:862][957]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.06-19.43.20:862][957]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.06-19.43.20:862][957]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.11.06-19.43.20:866][957]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.43.20:867][957]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.43.20:869][957]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.43.20:873][957]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.11.06-19.43.20:873][957]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.11.06-19.43.20:873][957]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.11.06-19.43.20:873][957]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-19.43.20:876][957]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-19.43.20:876][957]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-19.43.20:876][957]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.11.06-19.43.20:876][957]LogAudioMixer: Display: Using Audio Hardware Device ASUS VN289 (NVIDIA High Definition Audio)
+[2026.11.06-19.43.20:876][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.06-19.43.20:876][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.06-19.43.20:876][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.06-19.43.20:877][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.11.06-19.43.20:879][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.11.06-19.43.20:880][957]LogInit: FAudioDevice initialized with ID 8.
+[2026.11.06-19.43.20:880][957]LogAudio: Display: Audio Device (ID: 8) registered with world 'Lvl_ThirdPerson'.
+[2026.11.06-19.43.20:880][957]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.11.06-19.43.20:881][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.43.20:883][957]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.11.06-19.43.20:886][957]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.11.06-13.43.20
+[2026.11.06-19.43.20:887][957]LogWorld: Bringing up level for play took: 0.002765
+[2026.11.06-19.43.20:888][957]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.11.06-19.43.20:889][957]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.11.06-19.43.20:892][957]PIE: Server logged in
+[2026.11.06-19.43.20:893][957]PIE: Play in editor total start time 0.07 seconds.
+[2026.11.06-19.43.20:922][958]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.06-19.43.52:508][739]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.11.06-19.43.52:508][739]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.06-19.43.52:508][739]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.06-19.43.53:769][890]Cmd: quit
+[2026.11.06-19.43.53:775][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.43.53:805][890]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.43.53:805][890]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-19.43.53:806][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.43.53:806][890]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.11.06-19.43.53:807][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.06-19.43.53:811][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.43.53:835][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.43.53:835][890]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.11.06-19.43.53:835][890]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=8, StreamState=4
+[2026.11.06-19.43.53:844][890]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.11.06-19.43.53:849][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.11.06-19.43.53:870][891]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.11.06-19.44.19:789][357]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.06-19.45.38:772][423]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.06-19.45.47:701][237]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.06-19.46.11:935][523]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.06-19.46.17:471][ 16]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_EndScreen.WBP_EndScreen'
+[2026.11.06-19.46.17:529][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.11.06-19.46.19:022][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.06-19.46.19:073][129]LogFileHelpers: Saving Package: /Game/GameParts/WBP_EndScreen
+[2026.11.06-19.46.19:073][129]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_EndScreen] ([2] browsable assets)...
+[2026.11.06-19.46.19:075][129]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_EndScreen.WBP_EndScreen]
+[2026.11.06-19.46.19:075][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_EndScreen]
+[2026.11.06-19.46.19:075][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameParts/WBP_EndScreen" FILE="../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_EndScreen.uasset" SILENT=true
+[2026.11.06-19.46.19:089][129]LogSavePackage: Moving output files for package: /Game/GameParts/WBP_EndScreen
+[2026.11.06-19.46.19:089][129]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_EndScreenD69EC0464E48D1C744C1C69A2D232D25.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_EndScreen.uasset'
+[2026.11.06-19.46.19:095][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.689 ms (total: 550.488 ms)
+[2026.11.06-19.46.19:138][129]LogContentValidation: Enabled validators:
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.06-19.46.19:138][129]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.06-19.46.19:138][129]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.06-19.46.19:138][129]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.06-19.46.19:139][129]AssetCheck: /Game/GameParts/WBP_EndScreen Validating asset
+[2026.11.06-19.46.19:139][129]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 1
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.06-19.46.19:139][129]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.06-19.46.21:878][423]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.06-19.46.21:883][423]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.06-19.46.21:884][423]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.11.06-19.46.21:884][423]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 808 us (total: 7.649 ms)
+[2026.11.06-19.46.21:884][423]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.11.06-19.46.21:884][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.06-19.46.21:885][423]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.46.21:892][423]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.06-19.46.21:893][423]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.147 ms (total: 10.540 ms)
+[2026.11.06-19.46.21:893][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008573s)
+[2026.11.06-19.46.21:893][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008601s)
+[2026.11.06-19.46.21:917][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.11.06-19.46.21:919][423]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.11.06-19.46.21:921][423]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.06-19.46.21:921][423]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.06-19.46.21:921][423]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.06-19.46.21:921][423]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.06-19.46.21:922][423]LogWorldPartition: Display: WorldPartition initialize took 1.558 ms (total: 584.573 ms)
+[2026.11.06-19.46.21:923][423]LogPlayLevel: PIE: World Init took: (0.003255s)
+[2026.11.06-19.46.21:923][423]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.06-19.46.21:923][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.06-19.46.21:923][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.06-19.46.21:923][423]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.06-19.46.21:923][423]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.06-19.46.21:923][423]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.06-19.46.21:923][423]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.11.06-19.46.21:928][423]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.46.21:929][423]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.46.21:931][423]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.46.21:935][423]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.11.06-19.46.21:935][423]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.11.06-19.46.21:935][423]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.11.06-19.46.21:935][423]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-19.46.21:938][423]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-19.46.21:938][423]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-19.46.21:938][423]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.11.06-19.46.21:939][423]LogAudioMixer: Display: Using Audio Hardware Device ASUS VN289 (NVIDIA High Definition Audio)
+[2026.11.06-19.46.21:939][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.06-19.46.21:939][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.06-19.46.21:939][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.06-19.46.21:939][423]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.11.06-19.46.21:941][423]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.11.06-19.46.21:942][423]LogInit: FAudioDevice initialized with ID 9.
+[2026.11.06-19.46.21:942][423]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_ThirdPerson'.
+[2026.11.06-19.46.21:942][423]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.11.06-19.46.21:943][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.46.21:944][423]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.11.06-19.46.21:947][423]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.11.06-13.46.21
+[2026.11.06-19.46.21:947][423]LogWorld: Bringing up level for play took: 0.002621
+[2026.11.06-19.46.21:949][423]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.11.06-19.46.21:950][423]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.11.06-19.46.21:953][423]PIE: Server logged in
+[2026.11.06-19.46.21:954][423]PIE: Play in editor total start time 0.071 seconds.
+[2026.11.06-19.46.21:983][424]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.06-19.46.54:167][262]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.11.06-19.46.54:167][262]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.06-19.46.54:167][262]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.06-19.47.03:067][330]Cmd: quit
+[2026.11.06-19.47.03:068][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.47.03:106][330]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.47.03:106][330]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-19.47.03:107][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.47.03:107][330]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.11.06-19.47.03:108][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.06-19.47.03:111][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.47.03:138][330]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.11.06-19.47.03:139][330]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.11.06-19.47.03:139][330]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=9, StreamState=4
+[2026.11.06-19.47.03:146][330]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.11.06-19.47.03:149][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.47.03:152][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.11.06-19.47.03:174][331]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.11.06-19.47.40:912][657]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.06-19.47.56:270][959]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.06-19.47.58:778][175]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_EndScreen.WBP_EndScreen'
+[2026.11.06-19.47.58:819][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.11.06-19.48.00:097][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.06-19.48.00:139][267]LogFileHelpers: Saving Package: /Game/GameParts/WBP_EndScreen
+[2026.11.06-19.48.00:139][267]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_EndScreen] ([2] browsable assets)...
+[2026.11.06-19.48.00:141][267]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_EndScreen.WBP_EndScreen]
+[2026.11.06-19.48.00:141][267]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_EndScreen]
+[2026.11.06-19.48.00:141][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameParts/WBP_EndScreen" FILE="../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_EndScreen.uasset" SILENT=true
+[2026.11.06-19.48.00:153][267]LogSavePackage: Moving output files for package: /Game/GameParts/WBP_EndScreen
+[2026.11.06-19.48.00:154][267]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_EndScreen624DDE1D4AAEA6855978CCB83E8DF6ED.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_EndScreen.uasset'
+[2026.11.06-19.48.00:159][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.109 ms (total: 612.598 ms)
+[2026.11.06-19.48.00:204][267]LogContentValidation: Enabled validators:
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.06-19.48.00:204][267]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.06-19.48.00:204][267]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.06-19.48.00:204][267]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.06-19.48.00:204][267]AssetCheck: /Game/GameParts/WBP_EndScreen Validating asset
+[2026.11.06-19.48.00:204][267]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 1
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.06-19.48.00:204][267]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.06-19.48.02:744][525]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.06-19.48.02:750][525]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.06-19.48.02:750][525]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.11.06-19.48.02:752][525]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.983 ms (total: 9.632 ms)
+[2026.11.06-19.48.02:752][525]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.11.06-19.48.02:752][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.06-19.48.02:752][525]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.48.02:760][525]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.06-19.48.02:761][525]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.177 ms (total: 11.718 ms)
+[2026.11.06-19.48.02:761][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008805s)
+[2026.11.06-19.48.02:761][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008833s)
+[2026.11.06-19.48.02:785][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.11.06-19.48.02:788][525]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.11.06-19.48.02:790][525]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.06-19.48.02:790][525]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.06-19.48.02:790][525]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.06-19.48.02:790][525]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.06-19.48.02:792][525]LogWorldPartition: Display: WorldPartition initialize took 1.560 ms (total: 586.134 ms)
+[2026.11.06-19.48.02:792][525]LogPlayLevel: PIE: World Init took: (0.003578s)
+[2026.11.06-19.48.02:792][525]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.06-19.48.02:792][525]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.06-19.48.02:792][525]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.06-19.48.02:792][525]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.06-19.48.02:792][525]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.06-19.48.02:792][525]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.06-19.48.02:792][525]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.11.06-19.48.02:795][525]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.48.02:797][525]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.48.02:798][525]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.48.02:802][525]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.11.06-19.48.02:802][525]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.11.06-19.48.02:802][525]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.11.06-19.48.02:804][525]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-19.48.02:807][525]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-19.48.02:807][525]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-19.48.02:807][525]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.11.06-19.48.02:807][525]LogAudioMixer: Display: Using Audio Hardware Device ASUS VN289 (NVIDIA High Definition Audio)
+[2026.11.06-19.48.02:807][525]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.06-19.48.02:807][525]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.06-19.48.02:807][525]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.06-19.48.02:808][525]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.11.06-19.48.02:809][525]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.11.06-19.48.02:811][525]LogInit: FAudioDevice initialized with ID 10.
+[2026.11.06-19.48.02:811][525]LogAudio: Display: Audio Device (ID: 10) registered with world 'Lvl_ThirdPerson'.
+[2026.11.06-19.48.02:811][525]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.11.06-19.48.02:811][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.48.02:814][525]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.11.06-19.48.02:817][525]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.11.06-13.48.02
+[2026.11.06-19.48.02:817][525]LogWorld: Bringing up level for play took: 0.002824
+[2026.11.06-19.48.02:819][525]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.11.06-19.48.02:819][525]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.11.06-19.48.02:822][525]PIE: Server logged in
+[2026.11.06-19.48.02:823][525]PIE: Play in editor total start time 0.074 seconds.
+[2026.11.06-19.48.02:852][526]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.06-19.48.19:728][539]LogDerivedDataCache: C:/Users/Joey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:31.087 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 16813 files in 16905 folders with total size 333 MiB.
+[2026.11.06-19.48.34:661][329]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.11.06-19.48.34:661][329]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.11.06-19.48.34:661][329]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.11.06-19.48.46:032][691]Cmd: quit
+[2026.11.06-19.48.46:033][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.48.46:065][691]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.48.46:066][691]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-19.48.46:067][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.48.46:067][691]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.11.06-19.48.46:068][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.06-19.48.46:071][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.48.46:095][691]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.11.06-19.48.46:095][691]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.11.06-19.48.46:095][691]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=10, StreamState=4
+[2026.11.06-19.48.46:101][691]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.11.06-19.48.46:104][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.48.46:107][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.11.06-19.48.46:154][693]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.11.06-19.49.02:883][171]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.06-19.49.07:813][595]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_EndScreen.WBP_EndScreen'
+[2026.11.06-19.49.07:854][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.11.06-19.49.24:719][233]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameParts/WBP_HUD.WBP_HUD
+[2026.11.06-19.49.54:044][680]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node AE5E7C4B4ECAAD9D19971EBCEF49BDD9 (130.74.96.133:55870)
+[2026.11.06-19.49.54:524][716]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 6B6809DC471D3710645532A944F6EA0B (130.74.96.133:62134)
+[2026.11.06-19.49.54:696][730]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 79EDEE2344ADA54018F836AD22A9A190 (130.74.96.133:51971)
+[2026.11.06-19.50.03:899][478]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_HUD.WBP_HUD'
+[2026.11.06-19.50.03:953][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.11.06-19.50.05:772][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.06-19.50.05:823][617]LogFileHelpers: Saving Package: /Game/GameParts/WBP_HUD
+[2026.11.06-19.50.05:823][617]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_HUD] ([2] browsable assets)...
+[2026.11.06-19.50.05:826][617]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_HUD.WBP_HUD]
+[2026.11.06-19.50.05:826][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_HUD]
+[2026.11.06-19.50.05:826][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameParts/WBP_HUD" FILE="../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_HUD.uasset" SILENT=true
+[2026.11.06-19.50.05:836][617]LogSavePackage: Moving output files for package: /Game/GameParts/WBP_HUD
+[2026.11.06-19.50.05:837][617]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_HUD78CEB8514ABFE30496867788465177AA.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_HUD.uasset'
+[2026.11.06-19.50.05:842][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.758 ms (total: 683.356 ms)
+[2026.11.06-19.50.05:887][617]LogContentValidation: Enabled validators:
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.06-19.50.05:887][617]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.06-19.50.05:887][617]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.06-19.50.05:888][617]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.06-19.50.05:888][617]AssetCheck: /Game/GameParts/WBP_HUD Validating asset
+[2026.11.06-19.50.05:888][617]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 1
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.06-19.50.05:888][617]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.06-19.50.08:404][869]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.06-19.50.08:409][869]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.11.06-19.50.08:409][869]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.11.06-19.50.08:410][869]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 813 us (total: 10.446 ms)
+[2026.11.06-19.50.08:410][869]LogCameraSystemEditor: No camera objects needed building (inspected 0 objects)
+[2026.11.06-19.50.08:410][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.06-19.50.08:410][869]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.50.08:418][869]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.11.06-19.50.08:420][869]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.202 ms (total: 12.920 ms)
+[2026.11.06-19.50.08:420][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008812s)
+[2026.11.06-19.50.08:420][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008841s)
+[2026.11.06-19.50.08:444][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.11.06-19.50.08:446][869]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.11.06-19.50.08:447][869]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.11.06-19.50.08:447][869]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.11.06-19.50.08:447][869]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.11.06-19.50.08:447][869]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.11.06-19.50.08:449][869]LogWorldPartition: Display: WorldPartition initialize took 1.609 ms (total: 587.744 ms)
+[2026.11.06-19.50.08:449][869]LogPlayLevel: PIE: World Init took: (0.003316s)
+[2026.11.06-19.50.08:449][869]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: bUseRenderScheduler set to true.
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.06-19.50.08:449][869]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.06-19.50.08:449][869]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.06-19.50.08:449][869]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.06-19.50.08:449][869]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.06-19.50.08:449][869]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.06-19.50.08:450][869]LogAudioEnumeration: Display: Refreshing FWindowsMMDeviceCache
+[2026.11.06-19.50.08:454][869]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.50.08:455][869]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.50.08:456][869]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-19.50.08:460][869]LogAudioMixerWasapi: Display: FWasapiServiceWatcher started.
+[2026.11.06-19.50.08:460][869]LogAudioMixer: Display: Initializing audio mixer using platform API: 'WASAPIMixer'
+[2026.11.06-19.50.08:460][869]LogAudioMixerWasapi: Display: FWasapiServiceWatcher initial state: Audiosrv=RUNNING, AudioEndpointBuilder=RUNNING
+[2026.11.06-19.50.08:461][869]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-19.50.08:464][869]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-19.50.08:464][869]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-19.50.08:464][869]LogAudioMixer: Display: FAudioMixerWasapi initialized: SampleRate=48000 NumChannels=2 NumDirectOutChannels=0 bIsAggregateDevice=0 StreamParams.Num()=1
+[2026.11.06-19.50.08:464][869]LogAudioMixer: Display: Using Audio Hardware Device ASUS VN289 (NVIDIA High Definition Audio)
+[2026.11.06-19.50.08:464][869]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.06-19.50.08:464][869]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.06-19.50.08:464][869]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.06-19.50.08:464][869]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.11.06-19.50.08:467][869]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.11.06-19.50.08:469][869]LogInit: FAudioDevice initialized with ID 11.
+[2026.11.06-19.50.08:469][869]LogAudio: Display: Audio Device (ID: 11) registered with world 'Lvl_ThirdPerson'.
+[2026.11.06-19.50.08:469][869]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.11.06-19.50.08:469][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.50.08:472][869]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.11.06-19.50.08:474][869]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.11.06-13.50.08
+[2026.11.06-19.50.08:474][869]LogWorld: Bringing up level for play took: 0.002818
+[2026.11.06-19.50.08:476][869]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.11.06-19.50.08:477][869]LogEnhancedInput: Enhanced Input local player subsystem has initialized the user settings!
+[2026.11.06-19.50.08:479][869]PIE: Server logged in
+[2026.11.06-19.50.08:481][869]PIE: Play in editor total start time 0.072 seconds.
+[2026.11.06-19.50.08:510][870]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.06-19.50.17:696][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.50.17:696][948]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.11.06-19.50.17:696][948]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.11.06-19.50.17:697][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.50.17:698][948]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.11.06-19.50.17:699][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.06-19.50.17:702][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.06-19.50.17:728][948]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.11.06-19.50.17:728][948]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.11.06-19.50.17:728][948]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=11, StreamState=4
+[2026.11.06-19.50.17:735][948]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.11.06-19.50.17:737][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.06-19.50.17:740][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.11.06-19.50.17:786][950]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.11.06-19.55.00:468][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.11.06-19.55.00:470][704]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.029
+[2026.11.06-19.55.00:470][704]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_HUD] ([2] browsable assets)...
+[2026.11.06-19.55.00:472][704]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_HUD.WBP_HUD]
+[2026.11.06-19.55.00:472][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_HUD]
+[2026.11.06-19.55.00:484][704]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameParts/WBP_HUD_Auto4
+[2026.11.06-19.55.00:484][704]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_HUD_Auto4222E02B94CDE5D69DC0D7DB5FD8A3DF8.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/Autosaves/Game/GameParts/WBP_HUD_Auto4.uasset'
+[2026.11.06-19.55.00:485][704]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_EndScreen] ([2] browsable assets)...
+[2026.11.06-19.55.00:486][704]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_EndScreen.WBP_EndScreen]
+[2026.11.06-19.55.00:486][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_EndScreen]
+[2026.11.06-19.55.00:498][704]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameParts/WBP_EndScreen_Auto4
+[2026.11.06-19.55.00:498][704]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_EndScreen_Auto43EF1F93A426E0EF10823A0B5A43B4A38.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/Autosaves/Game/GameParts/WBP_EndScreen_Auto4.uasset'
+[2026.11.06-19.55.00:499][704]LogFileHelpers: Auto-saving content packages took 0.029
+[2026.11.06-20.05.17:786][691]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 79EDEE2344ADA54018F836AD22A9A190 (130.74.96.133:51971)
+[2026.11.06-20.05.17:798][692]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 6B6809DC471D3710645532A944F6EA0B (130.74.96.133:62134)
+[2026.11.06-20.05.18:371][742]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node AE5E7C4B4ECAAD9D19971EBCEF49BDD9 (130.74.96.133:55870)
+[2026.11.06-20.14.56:292][174]LogAudioMixerWasapi: Warning: FWasapiDefaultRenderStream: device lost in GetCurrentPadding (HRESULT=0x88890004). Requesting swap.
+[2026.11.06-20.14.56:293][174]LogAudioEnumeration: Warning: FWindowsMMDeviceCache::OnDeviceAdded: Device already in cache. Replacing entry for DeviceID='{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}'
+[2026.11.06-20.14.56:293][174]LogAudioMixer: Display: FAudioMixerWasapi::UpdateCacheFromFailedDevice: targeted re-read of '{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}' took 0.31 ms
+[2026.11.06-20.14.56:293][174]LogAudioMixer: Warning: FAudioMixerWasapi::CheckThreadedDeviceSwap: device lost detected by render thread, requesting swap. InstanceID=1
+[2026.11.06-20.14.56:293][174]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'FAudioMixerWasapi::CheckThreadedDeviceSwap - device lost', force=1
+[2026.11.06-20.14.56:293][174]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.11.06-20.14.56:293][174]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.06-20.14.56:293][174]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::CheckThreadedDeviceSwap - device lost
+[2026.11.06-20.14.56:293][174]LogAudioMixerWasapi: Warning: FWasapiDefaultRenderStream: device lost in GetCurrentPadding (HRESULT=0x88890004). Requesting swap.
+[2026.11.06-20.14.56:298][174]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.06-20.14.56:298][174]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - no new device to switch to...will run null device
+[2026.11.06-20.14.56:299][174]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2026.11.06-20.14.56:299][174]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.14.56:300][174]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Communications, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2026.11.06-20.14.56:300][174]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.14.56:300][174]LogAudioMixer: Display: FAudioMixerWasapi::InitDeviceSwapContextInternal - DeviceSwapContext in-flight, cancelling and starting a new swap.
+[2026.11.06-20.14.56:305][175]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.06-20.14.56:317][176]LogAudioMixer: Error: FAudioMixerWasapi::PostDeviceSwap - null device swap result!)
+[2026.11.06-20.14.56:317][176]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2026.11.06-20.14.56:317][176]LogAudioMixer: Display: FAudioMixerWasapi::ResumePlaybackOnNewDevice - device swap requested during previous device swap...not resuming audio
+[2026.11.06-20.14.56:327][177]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - no device manager (null renderer must be running)
+[2026.11.06-20.14.56:328][177]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.06-20.14.56:328][177]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.06-20.14.56:328][177]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - no device manager running, null renderer must be active
+[2026.11.06-20.14.56:418][185]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-20.14.56:713][211]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-20.14.56:713][211]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-20.14.56:714][211]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.06-20.14.56:723][212]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.06-20.14.56:734][213]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=386.21
+[2026.11.06-20.14.56:734][213]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'Realtek Digital Output (Realtek(R) Audio)'
+[2026.11.06-20.14.56:734][213]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.06-20.14.56:736][213]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.06-20.29.03:671][654]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 3E7815904BC54158956E78BF95BE62AD (130.74.96.103:65124)
+[2026.11.06-20.29.06:488][660]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=ASUS VN289 (NVIDIA High Definition Audio), InstanceID=1
+[2026.11.06-20.29.06:488][660]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.29.06:489][660]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Communications, DeviceName=ASUS VN289 (NVIDIA High Definition Audio), InstanceID=1
+[2026.11.06-20.29.06:489][660]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.29.06:489][660]LogAudioMixer: Display: FAudioMixerWasapi::InitDeviceSwapContextInternal - DeviceSwapContext in-flight, cancelling and starting a new swap.
+[2026.11.06-20.29.06:733][660]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}]
+[2026.11.06-20.29.06:733][660]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.06-20.29.06:733][660]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.06-20.29.06:739][660]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.06-20.29.06:740][660]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-20.29.06:750][661]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-20.29.06:750][661]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-20.29.06:750][661]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.06-20.29.07:067][661]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.06-20.29.07:401][662]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}, Name=ASUS VN289 (NVIDIA High Definition Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=16.70
+[2026.11.06-20.29.07:401][662]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-20.29.07:401][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.06-20.29.07:403][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.06-20.29.08:676][666]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 518404644C111C3F7C1711BE0F1046D5 (130.74.96.129:64009)
+[2026.11.06-20.29.18:748][697]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node FF9A793943BDAD4C129E21B05DB14F3E (130.74.96.131:54894)
+[2026.11.06-20.29.18:748][697]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 9944480540EDA5ABBE38B78E65E30D86 (130.74.96.129:52156)
+[2026.11.06-20.29.32:115][737]LogAudioMixerWasapi: Warning: FWasapiDefaultRenderStream: device lost in GetCurrentPadding (HRESULT=0x88890004). Requesting swap.
+[2026.11.06-20.29.32:119][737]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2026.11.06-20.29.32:119][737]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.29.32:120][737]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Communications, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2026.11.06-20.29.32:120][737]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.29.32:120][737]LogAudioMixer: Display: FAudioMixerWasapi::InitDeviceSwapContextInternal - DeviceSwapContext in-flight, cancelling and starting a new swap.
+[2026.11.06-20.29.32:401][737]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}]
+[2026.11.06-20.29.32:401][737]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.06-20.29.32:401][737]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.06-20.29.32:404][737]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.06-20.29.32:405][737]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-20.29.32:631][738]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-20.29.32:631][738]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-20.29.32:631][738]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.06-20.29.32:734][738]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.06-20.29.33:067][739]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a0a8e15a-995e-4042-8c8f-fa47822b8698}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=230.36
+[2026.11.06-20.29.33:067][739]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'Realtek Digital Output (Realtek(R) Audio)'
+[2026.11.06-20.29.33:067][739]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.06-20.29.33:069][739]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.06-20.46.58:735][876]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=ASUS VN289 (NVIDIA High Definition Audio), InstanceID=1
+[2026.11.06-20.46.58:735][876]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.46.58:736][876]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Communications, DeviceName=ASUS VN289 (NVIDIA High Definition Audio), InstanceID=1
+[2026.11.06-20.46.58:736][876]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.06-20.46.58:736][876]LogAudioMixer: Display: FAudioMixerWasapi::InitDeviceSwapContextInternal - DeviceSwapContext in-flight, cancelling and starting a new swap.
+[2026.11.06-20.46.58:748][876]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}]
+[2026.11.06-20.46.58:748][876]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.06-20.46.58:748][876]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.06-20.46.58:754][876]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.06-20.46.58:754][876]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.06-20.46.58:778][877]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.06-20.46.58:778][877]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.06-20.46.58:779][877]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.06-20.46.59:082][877]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.06-20.46.59:416][878]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{94c614d3-564b-426c-990c-70cd9ecb5fdd}, Name=ASUS VN289 (NVIDIA High Definition Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=30.83
+[2026.11.06-20.46.59:416][878]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'ASUS VN289 (NVIDIA High Definition Audio)'
+[2026.11.06-20.46.59:416][878]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.06-20.46.59:420][878]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.06-20.47.20:492][123]LogBlueprint: Compiling Blueprint '/Game/GameParts/WBP_HUD.WBP_HUD'
+[2026.11.06-20.47.20:539][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.11.06-20.47.22:400][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.06-20.47.22:454][261]LogFileHelpers: Saving Package: /Game/GameParts/WBP_HUD
+[2026.11.06-20.47.22:454][261]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GameParts/WBP_HUD] ([2] browsable assets)...
+[2026.11.06-20.47.22:456][261]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GameParts/WBP_HUD.WBP_HUD]
+[2026.11.06-20.47.22:456][261]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameParts/WBP_HUD]
+[2026.11.06-20.47.22:456][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameParts/WBP_HUD" FILE="../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_HUD.uasset" SILENT=true
+[2026.11.06-20.47.22:466][261]LogSavePackage: Moving output files for package: /Game/GameParts/WBP_HUD
+[2026.11.06-20.47.22:467][261]LogSavePackage: Moving '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Saved/WBP_HUDC0B699C64D96875937A1348A06D5DCBD.tmp' to '../../../../../../Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Content/GameParts/WBP_HUD.uasset'
+[2026.11.06-20.47.22:472][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.008 ms (total: 755.364 ms)
+[2026.11.06-20.47.22:534][261]LogContentValidation: Enabled validators:
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.06-20.47.22:534][261]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.06-20.47.22:534][261]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.06-20.47.22:534][261]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.06-20.47.22:534][261]AssetCheck: /Game/GameParts/WBP_HUD Validating asset
+[2026.11.06-20.47.22:534][261]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 1
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.06-20.47.22:534][261]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
