@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SpeedDaddy",
+			"Path": "..\\Source\\SpeedDaddy.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SpeedDaddyEditor",
+			"Path": "..\\Source\\SpeedDaddyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

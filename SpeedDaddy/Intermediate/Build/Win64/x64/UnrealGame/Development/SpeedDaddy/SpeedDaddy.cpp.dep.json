@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\joey\\documents\\github\\gamedevproject3\\speeddaddy\\source\\speeddaddy\\speeddaddy.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\joey\\documents\\github\\gamedevproject3\\speeddaddy\\intermediate\\build\\win64\\x64\\speeddaddy\\development\\engine\\sharedpch.engine.project.valapi.valexpapi.cpp20.inclorderunreal5_6.h.pch",
+        "Includes": [
+            "c:\\users\\joey\\documents\\github\\gamedevproject3\\speeddaddy\\intermediate\\build\\win64\\x64\\unrealgame\\development\\speeddaddy\\definitions.speeddaddy.h",
+            "c:\\users\\joey\\documents\\github\\gamedevproject3\\speeddaddy\\source\\speeddaddy\\speeddaddy.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

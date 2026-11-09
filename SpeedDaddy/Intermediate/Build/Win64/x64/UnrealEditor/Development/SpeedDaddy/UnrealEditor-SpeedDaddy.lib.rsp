@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/experimental:deterministic
+/DEF
+/NAME:"UnrealEditor-SpeedDaddy.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/SpeedDaddyEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.obj"
+"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/MyClass.cpp.obj"
+"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/SpeedDaddy.cpp.obj"
+"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/PerModuleInline.gen.cpp.obj"
+/OUT:"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/UnrealEditor-SpeedDaddy.lib"

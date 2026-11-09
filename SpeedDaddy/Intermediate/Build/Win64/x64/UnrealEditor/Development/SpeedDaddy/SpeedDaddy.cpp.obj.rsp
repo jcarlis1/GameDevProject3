@@ -1,0 +1,14 @@
+"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Source/SpeedDaddy/SpeedDaddy.cpp"
+@"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/SpeedDaddy.Shared.rsp"
+/FI"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/SpeedDaddyEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h"
+/FI"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/Definitions.SpeedDaddy.h"
+/Yu"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/SpeedDaddyEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h"
+/Fp"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/SpeedDaddyEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_6.h.pch"
+/Fo"C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/SpeedDaddy.cpp.obj"
+/experimental:log "C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/SpeedDaddy.cpp.sarif"
+/sourceDependencies "C:/Users/Joey/Documents/GitHub/GameDevProject3/SpeedDaddy/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpeedDaddy/SpeedDaddy.cpp.dep.json"
+/nologo
+/TP
+/GR-
+/std:c++20
+/wd5054

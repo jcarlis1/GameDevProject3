@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpeedDaddy.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpeedDaddyEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\SpeedDaddy">
+      <UniqueIdentifier>{D1CE1282-B6B8-3706-8E65-533203E1D2E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpeedDaddy\MyClass.cpp">
+      <Filter>Source\SpeedDaddy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpeedDaddy\MyClass.h">
+      <Filter>Source\SpeedDaddy</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SpeedDaddy\SpeedDaddy.Build.cs">
+      <Filter>Source\SpeedDaddy</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpeedDaddy\SpeedDaddy.cpp">
+      <Filter>Source\SpeedDaddy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpeedDaddy\SpeedDaddy.h">
+      <Filter>Source\SpeedDaddy</Filter>
+    </ClInclude>
+    <None Include="..\..\SpeedDaddy.uproject" />
+  </ItemGroup>
+</Project>
